@@ -7,7 +7,7 @@ dashboard = meraki.DashboardAPI(API_KEY, suppress_logging=True)
 dashboard_v0 = meraki_v0.DashboardAPI(API_KEY, suppress_logging=True)
 
 org = dashboard.organizations.getOrganizations()[0]['id']
-print(f'\nOrganization ID: {org}\n')
+print(f'\nOrganization ID: {org}')
 
 networks = dashboard.organizations.getOrganizationNetworks(org)
 
