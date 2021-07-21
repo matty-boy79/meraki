@@ -8,5 +8,5 @@ The script will set the default gateway to x.x.x.254
 The script will change the DHCP scope to use google DNS and reserve the first 20 IPs
 Note - The script only works for /24 subnets as I coulnd't be arsed making it work for anything! I probably will at some point.
 
-MyVlanName,10.15.15.0/24,15
-MyOtherVlanName,10.16.16.0/24,16
+<p>MyVlanName,10.15.15.0/24,15</p>
+<p>MyOtherVlanName,10.16.16.0/24,16</p>
